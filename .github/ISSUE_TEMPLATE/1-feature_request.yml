@@ -1,0 +1,31 @@
+name: Feature request
+description: Ask for a feature or a modification for the project.
+title: 'Feature: '
+labels: ['enhancement']
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Feature or modification details
+      description: Please provide a detailed description of the feature or modification you are requesting.
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: Size
+      description: How big is this feature or modification ?
+      options:
+        - Small
+        - Medium
+        - Large
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/MaximePremont/boilerplate-nextron-shadcn/blob/main/CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
