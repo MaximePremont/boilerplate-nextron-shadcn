@@ -1,0 +1,45 @@
+{
+  "name": "boilerplate-nextron-shadcn-installer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maxime Premont <maxime.premont@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "description": "Boilerplate nextron shadcn installer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaximePremont/boilerplate-nextron-shadcn"
+  },
+  "homepage": "https://github.com/MaximePremont/boilerplate-nextron-shadcn",
+  "keywords": [
+    "electron",
+    "typescript",
+    "nextjs",
+    "nextron",
+    "shadcn",
+    "tailwindcss",
+    "crossbuild"
+  ],
+  "bugs": {
+    "url": "https://github.com/MaximePremont/boilerplate-nextron-shadcn/issues/new?assignees=&labels=bug&projects=&template=2-bug-report.yml&title=Bug%3A+",
+    "email": "maxime.premont@gmail.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "spinner.js",
+    "index.js"
+  ],
+  "bin": {
+    "boilerplate-nextron-shadcn": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "got": "^14.4.2",
+    "make-dir": "^5.0.0",
+    "ora": "^8.1.0",
+    "path": "^0.12.7",
+    "tar": "^7.4.3"
+  }
+}
