@@ -19,6 +19,10 @@
     "tailwindcss",
     "crossbuild"
   ],
+  "bugs": {
+    "url": "https://github.com/MaximePremont/boilerplate-nextron-shadcn/issues/new?assignees=&labels=bug&projects=&template=2-bug-report.yml&title=Bug%3A+",
+    "email": "maxime.premont@gmail.com"
+  },
   "scripts": {
     "dev": "echo \"Please use 'next:dev' or 'electron:dev'\" && exit 1",
     "build": "echo \"Please use 'next:build' or 'electron:build'\" && exit 1",
