@@ -10,7 +10,7 @@ function IndexPage() {
       </Head>
       <div className='flex flex-col items-center gap-2 pt-10'>
         <Image
-          priority={false}
+          priority
           src="/images/logo.png"
           alt="logo"
           width={150}

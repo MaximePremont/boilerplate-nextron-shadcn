@@ -10,3 +10,9 @@ files:
       - package.json
       - app
 publish: null
+linux:
+  target:
+    - deb
+    - rpm
+    - snap
+  category: Utility
