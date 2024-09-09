@@ -40,7 +40,7 @@ async function downloadProject() {
 
   Spinner.create('Downloading project and extracting...');
   const mainUrl = 'https://codeload.github.com/MaximePremont/boilerplate-nextron-shadcn/tar.gz/main'
-  await got.stream(mainUrl).pipe(x({ cwd: dirname }))
+  await got.stream(mainUrl).pipe(x({ cwd: dirname, filter: (path) => !path.includes('installer') }))
 
   const cmd = (await pm() === 'yarn') ? 'yarn && yarn dev' : 'npm install && npm run dev';
   Spinner.clear(`Run \`${cmd}\` inside of "${dirname}" to start the app`);
