@@ -7,6 +7,7 @@ function IndexPage() {
     <Fragment>
       <Head>
         <title>Nextron boilerplate</title>
+        <link rel='icon' href='/images/logo.png' />
       </Head>
       <div className="flex flex-col items-center gap-2 pt-10">
         <Image
