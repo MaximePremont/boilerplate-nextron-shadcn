@@ -45,10 +45,12 @@ npm run electron:build-all            Build on all systems
 npm run electron:build-win32          Build on Windows x32
 npm run electron:build-win64          Build on Windows x64
 npm run electron:build-linux          Build for linux*
-npm run electron:build-mac            Build for MacOs
-npm run electron:build-mac-universal  Universal build for MacOs
+npm run electron:build-mac            Build for MacOs**
+npm run electron:build-mac-universal  Universal build for MacOs**
 ```
-*For linux, you can change the package type ( snap, deb... ) by editing the [electron-builder.yml](./electron-builder.yml) file.
+*For linux, you can change the package type ( snap, deb... ) by editing the [electron-builder.yml](./electron-builder.yml) file. You may need to install some packages ( for exemple rmp to build a `rpm`).
+
+**MacOs versions can only be build using a Mac.
 
 **For full usage, please read the [Nextron documentation](https://github.com/saltyshiomix/nextron).**
 ## Shadcn/ui
