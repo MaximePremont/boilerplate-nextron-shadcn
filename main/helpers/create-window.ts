@@ -2,7 +2,7 @@ import {
   screen,
   BrowserWindow,
   BrowserWindowConstructorOptions,
-  Rectangle,
+  Rectangle
 } from 'electron'
 import Store from 'electron-store'
 
@@ -15,7 +15,7 @@ export const createWindow = (
   const store = new Store<Rectangle>({ name })
   const defaultSize = {
     width: options.width,
-    height: options.height,
+    height: options.height
   }
   let state = {}
 
@@ -28,7 +28,7 @@ export const createWindow = (
       x: position[0],
       y: position[1],
       width: size[0],
-      height: size[1],
+      height: size[1]
     }
   }
 
@@ -45,12 +45,12 @@ export const createWindow = (
     const bounds = screen.getPrimaryDisplay().bounds
     return Object.assign({}, defaultSize, {
       x: (bounds.width - defaultSize.width) / 2,
-      y: (bounds.height - defaultSize.height) / 2,
+      y: (bounds.height - defaultSize.height) / 2
     })
   }
 
-  const ensureVisibleOnSomeDisplay = (windowState) => {
-    const visible = screen.getAllDisplays().some((display) => {
+  const ensureVisibleOnSomeDisplay = windowState => {
+    const visible = screen.getAllDisplays().some(display => {
       return windowWithinBounds(windowState, display.bounds)
     })
     if (!visible) {
@@ -76,8 +76,8 @@ export const createWindow = (
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
-      ...options.webPreferences,
-    },
+      ...options.webPreferences
+    }
   })
 
   win.on('close', saveState)

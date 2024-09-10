@@ -1,0 +1,6 @@
+*.md
+*.mdx
+.next
+node_modules
+app
+dist

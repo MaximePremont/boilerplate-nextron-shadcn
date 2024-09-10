@@ -19,7 +19,12 @@
     "tailwindcss",
     "crossbuild"
   ],
+  "bugs": {
+    "url": "https://github.com/MaximePremont/boilerplate-nextron-shadcn/issues/new?assignees=&labels=bug&projects=&template=2-bug-report.yml&title=Bug%3A+",
+    "email": "maxime.premont@gmail.com"
+  },
   "scripts": {
+    "format": "next lint renderer --fix && prettier --write .",
     "dev": "echo \"Please use 'next:dev' or 'electron:dev'\" && exit 1",
     "build": "echo \"Please use 'next:build' or 'electron:build'\" && exit 1",
     "start": "echo \"Please use 'next:start'\" && exit 1",
@@ -57,11 +62,21 @@
   "devDependencies": {
     "@types/node": "^20.11.16",
     "@types/react": "^18.2.52",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
     "autoprefixer": "^10.4.19",
     "electron": "^31.0.1",
     "electron-builder": "^24.13.3",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.8",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-tailwindcss": "^3.17.4",
     "nextron": "^9.1.0",
     "postcss": "^8.4.38",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
     "serve": "^14.2.3",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5"

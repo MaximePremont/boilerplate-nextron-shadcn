@@ -4,9 +4,9 @@ module.exports = {
   distDir: process.env.NODE_ENV === 'production' ? '../app' : '.next',
   trailingSlash: true,
   images: {
-    unoptimized: true,
+    unoptimized: true
   },
-  webpack: (config) => {
+  webpack: config => {
     return config
-  },
+  }
 }
