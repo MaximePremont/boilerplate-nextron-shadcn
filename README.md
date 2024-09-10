@@ -59,6 +59,8 @@ Eslint and Prettier are installed and configured to work with the project. Feel 
 _Please note that contributors to this project must adhere to the defined standard._
 ## Contributing
 Feel free to improve this project by developing ( [contribution guide](#) ) or participating in [community discussions](https://github.com/MaximePremont/boilerplate-nextron-shadcn/discussions).
+## Maintainers
+- [Maxime Premont](https://github.com/MaximePremont)
 ## License
 This project in under the [MIT License](./LICENSE).
 ## Related
