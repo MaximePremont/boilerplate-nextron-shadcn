@@ -18,7 +18,8 @@
     "nextron",
     "shadcn",
     "tailwindcss",
-    "crossbuild"
+    "crossbuild",
+    "app-router"
   ],
   "bugs": {
     "url": "https://github.com/MaximePremont/boilerplate-nextron-shadcn/issues/new?assignees=&labels=bug&projects=&template=2-bug-report.yml&title=Bug%3A+",
