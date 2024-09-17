@@ -4,7 +4,7 @@ import { fontFamily } from 'tailwindcss/defaultTheme'
 module.exports = {
   darkMode: ['class'],
   content: [
-    './renderer/pages/**/*.{ts,tsx}',
+    './renderer/app/**/*.{ts,tsx}',
     './renderer/components/**/*.{ts,tsx}'
   ],
   prefix: '',
@@ -76,5 +76,6 @@ module.exports = {
       }
     }
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require('tailwindcss-animate')]
 }
