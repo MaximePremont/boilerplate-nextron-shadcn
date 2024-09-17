@@ -17,7 +17,8 @@
     "nextron",
     "shadcn",
     "tailwindcss",
-    "crossbuild"
+    "crossbuild",
+    "app-router"
   ],
   "bugs": {
     "url": "https://github.com/MaximePremont/boilerplate-nextron-shadcn/issues/new?assignees=&labels=bug&projects=&template=2-bug-report.yml&title=Bug%3A+",
@@ -54,6 +55,7 @@
     "electron-store": "^8.2.0",
     "lucide-react": "^0.439.0",
     "next": "^14.2.4",
+    "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwind-merge": "^2.5.2",

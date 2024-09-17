@@ -4,7 +4,7 @@
 <h1 align="center">Nextron ( Next.Js + Electron ) project boilerplate in TypeScript, with TailwindCSS + Shadcn/ui, web and desktop crossbuild</h1>
 
 ## Introduction
-This repository is a Nextron ( Next.Js + Electron ) project template in TypeScript that includes TailwindCSS and the Shadcn/ui component library. This project is also configured so that the application can be built for both web and desktop versions with the same code.
+This repository is a Nextron ( Next.Js + Electron ) project template in TypeScript with a Next.Js 14 App Router that includes TailwindCSS and the Shadcn/ui component library. This project is also configured so that the application can be built for both web and desktop versions with the same code.
 
 The aim of this project is to enable anyone to quickly and easily start up a project using these technologies.
 ## Installation
