@@ -13,5 +13,8 @@
     "plugin:tailwindcss/recommended",
     "prettier"
   ],
+  "rules": {
+    "no-html-link-for-pages": "off"
+  },
   "plugins": ["prettier", "@typescript-eslint", "tailwindcss"]
 }
