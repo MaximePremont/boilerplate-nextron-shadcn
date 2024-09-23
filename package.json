@@ -76,7 +76,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-tailwindcss": "^3.17.4",
     "nextron": "^9.1.0",
-    "postcss": "^8.4.38",
+    "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
     "serve": "^14.2.3",
