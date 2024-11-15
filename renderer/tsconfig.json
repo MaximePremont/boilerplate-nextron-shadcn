@@ -5,7 +5,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "next-env.d.ts",
-    "../application_build/types/**/*.ts"
+    "../dist/types/**/*.ts"
   ],
   "exclude": ["node_modules"],
   "compilerOptions": {
