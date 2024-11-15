@@ -1,7 +1,7 @@
 {
   "name": "boilerplate-nextron-shadcn",
   "description": "Nextron project boilerplate ( Next.Js + Electron ) in TypeScript, with TailwindCSS + Shadcn/ui, with web and desktop build",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Maxime Premont <maxime.premont@gmail.com>",
   "main": "app/background.js",
   "license": "MIT",
