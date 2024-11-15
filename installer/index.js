@@ -16,11 +16,13 @@ async function pm() {
   const exec = promisify(defaultExec)
   try {
     await exec(`${pm} -v`, { cwd })
-  } catch (_) {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  } catch (_error) {
     pm = 'npm'
     try {
       await exec(`${pm} -v`, { cwd })
-    } catch (_) {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    } catch (_error) {
       pm = undefined
     }
   }
@@ -46,7 +48,7 @@ async function downloadProject() {
     'https://codeload.github.com/MaximePremont/boilerplate-nextron-shadcn/tar.gz/main'
   await got
     .stream(mainUrl)
-    .pipe(x({ cwd: dirname, filter: path => !path.includes('installer') }))
+    .pipe(x({ cwd: dirname, filter: path => !path.includes('installer'), strip: 1 }))
 
   const cmd =
     (await pm()) === 'yarn' ? 'yarn && yarn dev' : 'npm install && npm run dev'
