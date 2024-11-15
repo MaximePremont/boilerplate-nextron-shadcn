@@ -67,7 +67,7 @@
     "@typescript-eslint/eslint-plugin": "^8.4.0",
     "@typescript-eslint/parser": "^8.5.0",
     "autoprefixer": "^10.4.19",
-    "electron": "^32.0.2",
+    "electron": "^33.2.0",
     "electron-builder": "^25.0.5",
     "eslint": "^8.57.0",
     "eslint-config-next": "15.0.3",
@@ -84,6 +84,10 @@
     "typescript": "^5.4.5"
   },
   "overrides": {
-    "@types/react": "npm:types-react@19.0.0-rc.1"
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "next-themes": {
+      "react": "19.0.0-rc-66855b96-20241106",
+      "react-dom": "19.0.0-rc-66855b96-20241106"
+    }
   }
 }
