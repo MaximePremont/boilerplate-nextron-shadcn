@@ -10,5 +10,5 @@ nextron-shadcn-app
 next-env.d.ts
 
 # build
-/app
+/application_build
 dist

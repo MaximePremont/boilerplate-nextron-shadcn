@@ -16,5 +16,10 @@
   "rules": {
     "no-html-link-for-pages": "off"
   },
+  "settings": {
+    "next": {
+      "rootDir": "./renderer"
+    }
+  },
   "plugins": ["prettier", "@typescript-eslint", "tailwindcss"]
 }
